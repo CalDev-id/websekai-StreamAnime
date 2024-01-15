@@ -22,7 +22,7 @@ const Topbar = ({ setSidebarOn, home, pageName, name }) => {
                     {home ? (
                             <div className="flex lg:hidden">
                             <Image
-                                src="/Images/logo.png"
+                                src="/Images/Logo.png"
                                 alt=""
                                 width={300}
                                 height={300}

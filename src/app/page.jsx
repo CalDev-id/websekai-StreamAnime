@@ -37,7 +37,7 @@ const SignUp = () => {
                 <div className="hidden md:block w-1/2 xl:w-2/3 bg-[#181a20]">
                     <Image
                         className="h-full w-full xl:pr-28"
-                        src="Images/Group.png"
+                        src="/Images/Group.png"
                         width={1000}
                         height={1000}
                         alt=""
