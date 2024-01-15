@@ -1,6 +1,6 @@
 
-import SubscriptionCard from "@/Components/SubscriptionCard";
-import BasicLayout from "@/Layouts/BasicLayout";
+import SubscriptionCard from "../../components/SubscriptionCard";
+import BasicLayout from "../../Layouts/BasicLayout";
 
 const Subscription = ({ auth, }) => {
 
