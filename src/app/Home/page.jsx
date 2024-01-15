@@ -23,7 +23,7 @@ const Index = async () => {
             {/* {data.map(data => {console.log(data.title)})} */}
             {/* {console.log(typeof data)} */}
         </div>
-        <div className="px-3">
+        <div className="px-3 pb-20">
             <div className="flex mb-3 justify-between text-green-500">
                 <p>New Episode Releases</p>
                 <a href="#">See all..</a>

@@ -15,7 +15,7 @@ const HomeLayout = ({ anak, home, pageName, auth, link}) => {
                         auth={auth}
                         sidebarOn={sidebarOn}
                         setSidebarOn={setSidebarOn}
-                        name={"Weebs"}
+                        name={"Websekai"}
                         link={link}
                     />
                 </div>

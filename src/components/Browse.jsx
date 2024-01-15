@@ -86,7 +86,7 @@ const Browse = ({ayam}) => {
                     {data && data.map((movie) => (
                         <SwiperSlide key={movie.id}>
                             {" "}
-                            <a href={"#"} className="absolute group overflow-hidden rounded-2xl">
+                            <a href={"/Movie"} className="absolute group overflow-hidden rounded-2xl">
                                 <Image
                                     src={movie.images.jpg.image_url}
                                     width={1000}
