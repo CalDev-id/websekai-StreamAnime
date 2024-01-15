@@ -54,7 +54,7 @@ const SubscriptionCard = ({
                 <div className="flex flex-col gap-[30px] py-[30px] px-7 outline outline-1 bg-[#1F222A] outline-green-500 rounded-[26px] text-white w-[300px]">
                     {/* <!-- Ornament Icon --> */}
                     <div className="max-w-max">
-                        <img src="/images/premium.png" className="w-10" alt="" />
+                        <img src="/Images/premium.png" className="w-10" alt="" />
                     </div>
                     {/* <!-- Top Content: Name-Price --> */}
                     <div>
