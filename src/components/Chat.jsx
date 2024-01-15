@@ -46,7 +46,7 @@ const Chat = () => {
                         <div className="chat chat-start">
                             <div className="chat-image avatar">
                                 <div className="w-10 rounded-full">
-                                    <Image alt="chat" width={300} height={300} src="/images/websekai-logo.jpg" />
+                                    <Image alt="chat" width={300} height={300} src="/Images/websekai-logo.jpg" />
                                 </div>
                             </div>
                             <div className="chat-header">
@@ -82,7 +82,7 @@ const Chat = () => {
                         <div className="chat chat-start">
                             <div className="chat-image avatar">
                                 <div className="w-10 rounded-full">
-                                    <Image alt="chat" width={300} height={300} src="/images/websekai-logo.jpg" />
+                                    <Image alt="chat" width={300} height={300} src="/Images/websekai-logo.jpg" />
                                 </div>
                             </div>
                             <div className="chat-header">

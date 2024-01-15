@@ -22,7 +22,7 @@ const SignUp = () => {
         <>
             <Image
                 className={dark ? "absolute md:hidden" : "absolute md:hidden"}
-                src="/images/LoadScreen.png"
+                src="/Images/LoadScreen.png"
                 width={1000}
                 height={1000}
                 alt=""
@@ -37,7 +37,7 @@ const SignUp = () => {
                 <div className="hidden md:block w-1/2 xl:w-2/3 bg-[#181a20]">
                     <Image
                         className="h-full w-full xl:pr-28"
-                        src="/images/group.png"
+                        src="Images/group.png"
                         width={1000}
                         height={1000}
                         alt=""
@@ -55,7 +55,7 @@ const SignUp = () => {
                             }}
                         />
                         <Image
-                            src="/images/websekai-logo.jpg"
+                            src="/Images/websekai-logo.jpg"
                             alt=""
                             width={500}
                             height={500}
@@ -129,7 +129,7 @@ const SignUp = () => {
                         <section className="flex justify-evenly">
                             <div className="px-6 py-3 border rounded-xl">
                                 <Image
-                                    src="/images/facebooklogo.svg"
+                                    src="/Images/facebooklogo.svg"
                                     alt=""
                                     width={500}
                                     height={500}
@@ -138,7 +138,7 @@ const SignUp = () => {
                             </div>
                             <div className="px-6 py-3 border rounded-xl">
                                 <Image
-                                    src="/images/GoogleLogo.svg"
+                                    src="/Images/GoogleLogo.svg"
                                     alt=""
                                     width={500}
                                     height={500}
@@ -147,7 +147,7 @@ const SignUp = () => {
                             </div>
                             <div className="px-6 py-3 border rounded-xl">
                                 <Image
-                                    src="/images/appleLogo.png"
+                                    src="/Images/appleLogo.png"
                                     alt=""
                                     width={500}
                                     height={500}
@@ -171,7 +171,7 @@ const SignUp = () => {
             <style jsx="true">
                 {`
                     #email {
-                        background-image: url("/images/email.png");
+                        background-image: url("/Images/email.png");
                         background-repeat: no-repeat;
                         background-position: left center;
                         background-position: 3% 50%;
@@ -182,7 +182,7 @@ const SignUp = () => {
             <style jsx="true">
                 {`
                     #Password {
-                        background-image: url("/images/pass.png");
+                        background-image: url("/Images/pass.png");
                         background-repeat: no-repeat;
                         background-position: left center;
                         background-position: 3% 50%;
@@ -193,7 +193,7 @@ const SignUp = () => {
             <style jsx="true">
                 {`
                     #name {
-                        background-image: url("/images/user.png");
+                        background-image: url("/Images/user.png");
                         background-repeat: no-repeat;
                         background-position: left center;
                         background-position: 3% 50%;

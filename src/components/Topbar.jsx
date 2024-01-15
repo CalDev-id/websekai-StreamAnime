@@ -22,7 +22,7 @@ const Topbar = ({ setSidebarOn, home, pageName, name }) => {
                     {home ? (
                             <div className="flex lg:hidden">
                             <Image
-                                src="/images/logo.png"
+                                src="/Images/logo.png"
                                 alt=""
                                 width={300}
                                 height={300}
@@ -58,7 +58,7 @@ const Topbar = ({ setSidebarOn, home, pageName, name }) => {
                             </p>
                             <Image
                                 onClick={triggerDropdown}
-                                src="/images/websekai-logo.jpg"
+                                src="/Images/websekai-logo.jpg"
                                 alt=""
                                 width={300}
                                 height={300}
