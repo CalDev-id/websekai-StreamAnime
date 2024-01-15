@@ -33,34 +33,34 @@ const Subscription = ({ auth, }) => {
 
 
     return (
-        <BasicLayout pageName={"Subscribe"} auth={auth} link={'/Payments'} anak={            <div className="min-h-screen">
-        <div className="py-20 lg:py-10 lg:pb-32 flex flex-col items-center">
-            <div className="text-green-500 font-semibold text-[26px] mb-3">
-                Subscribe To Premium
-            </div>
-            <p className="text-base text-white leading-7 max-w-[302px] text-center">
-                Enjoy watching Full-HD animes, without restriction and
-                without ads
-            </p>
+        <BasicLayout home={true} pageName={"Subscribe"} auth={auth} link={'/Payments'} anak={<div className="min-h-screen">
+            <div className="py-20 lg:py-10 lg:pb-32 flex flex-col items-center">
+                <div className="text-green-500 font-semibold text-[26px] mb-3">
+                    Subscribe To Premium
+                </div>
+                <p className="text-base text-white leading-7 max-w-[302px] text-center">
+                    Enjoy watching Full-HD animes, without restriction and
+                    without ads
+                </p>
 
-            {/* <!-- Pricing Card --> */}
-            <div className="md:flex justify-center gap-10 mt-5 md:mt-[70px]">
-                {/* <!-- Basic --> */}
-                {plans.map((plan) => (
-                    <SubscriptionCard
-                        name={plan.name}
-                        price={plan.price}
-                        durationInMonth={plan.active_period_in_months}
-                        features={JSON.parse(plan.features)}
-                        isPremium={plan.name === "Premium"}
-                        key={plan.id}
-                        onSelectSubscription={() => selectSubscription(plan.id)}
-                    />
-                ))}
+                {/* <!-- Pricing Card --> */}
+                <div className="md:flex justify-center gap-10 mt-5 md:mt-[70px]">
+                    {/* <!-- Basic --> */}
+                    {plans.map((plan) => (
+                        <SubscriptionCard
+                            name={plan.name}
+                            price={plan.price}
+                            durationInMonth={plan.active_period_in_months}
+                            features={JSON.parse(plan.features)}
+                            isPremium={plan.name === "Premium"}
+                            key={plan.id}
+                            onSelectSubscription={() => selectSubscription(plan.id)}
+                        />
+                    ))}
+                </div>
+                {/* <!-- /Pricing Card --> */}
             </div>
-            {/* <!-- /Pricing Card --> */}
-        </div>
-    </div>}>
+        </div>}>
 
         </BasicLayout>
     );

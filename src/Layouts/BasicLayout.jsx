@@ -4,6 +4,7 @@ import Sidebar from "../components/Sidebar";
 import Topbar from "../components/Topbar";
 import { useState } from "react";
 import Chat from "../components/Chat";
+import BottomBar from "../components/BottomBar";
 
 const HomeLayout = ({ anak, home, pageName, auth, link}) => {
     const [sidebarOn, setSidebarOn] = useState(false);
@@ -35,6 +36,7 @@ const HomeLayout = ({ anak, home, pageName, auth, link}) => {
                             <Chat />
                         </div>
                     </div>
+                    <BottomBar />
                 </section>
             </section>
     );
