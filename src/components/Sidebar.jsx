@@ -94,7 +94,7 @@ const Sidebar = ({ sidebarOn, setSidebarOn, name, plans, auth, link }) => {
 
                         <div>
                             <Image
-                                src="/images/deku.png"
+                                src="Images/deku.png"
                                 alt=""
                                 width={300}
                                 height={300}
